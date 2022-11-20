@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Navbar,Header,Header1,Products,Footer} from './containers';
+import {Navbar,Header,Header1,Products,Footer, Rectangle} from './containers';
 import About from './containers/about/About';
 import Form from './wordguessing/Form';
 import './App.css';
@@ -12,6 +12,7 @@ import Grammar from './Quiz/grammar/Apps';
 import History from './Quiz/history/History';
 import English from './Quiz/English/English';
 import ScrollButton from './components/backtotop/ScrollButton';
+import Title from './components/title/Title';
 
 const App = () => {
   
@@ -36,9 +37,9 @@ const App = () => {
     
           <Header1 />
           <Products />
-          
+          <Rectangle/>
           <ScrollButton/>
-
+<Title/>
           <Footer />
           <About />
         </div>

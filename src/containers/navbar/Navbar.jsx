@@ -2,22 +2,26 @@
 import React, {useState} from 'react';
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
-import { Link } from 'react-scroll';
 import './navbar.css';
+import { Link } from 'react-scroll';
 
 const Menu =()=>(
   <>
-    <p><a href ="#home">Overview</a></p>
-          <p><Link  to="product" spy={true} smooth={true} offset={20} duration={500}>
+     <p><Link  to="overview" spy={true} smooth={true} offset={20} duration={500}>
+          Overview
+        </Link> </p>
+        <p><Link  to="features" spy={true} smooth={true} offset={20} duration={500}>
+          About
+        </Link> </p>
+    <p><Link  to="products" spy={true} smooth={true} offset={20} duration={500}>
           Products
         </Link> </p>
-        <p><Link  to="about" spy={true} smooth={true} offset={20} duration={250}>
-          Contact US
-        </Link></p>
-          <p><Link  to="about" spy={true} smooth={true} offset={20} duration={250}>
-          About
-        </Link></p>
-          
+        <p><Link  to="contactus" spy={true} smooth={true} offset={20} duration={500}>
+          Contact
+        </Link> </p>
+        <p><Link  to="contactus" spy={true} smooth={true} offset={20} duration={500}>
+          Help
+        </Link> </p>
   </>
 )
 const Navbar = () => {
@@ -33,8 +37,6 @@ const Navbar = () => {
                 <Menu />
           
         </div>
-        
-        
         </div>
         {/* <div className='wordbie__navbar-sign'>
 
@@ -52,8 +54,8 @@ const Navbar = () => {
               <Menu />
               {/* <div className='wordbie__navbar-menu_container-links-sign'>
 
-          <button type="button"> Sign Up</button> */}
-        {/* </div> */}
+          <button type="button"> Sign Up</button>
+        </div> */}
               </div>
             </div>
 
