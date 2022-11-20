@@ -115,12 +115,18 @@
  ;
 
 }
+
+
 .submit {
   width: 0px;
 }
 .submitButton:hover,
 .submitButton:focus {
-  background-color:  rgb(199,223,96);
+  background-color:  rgb(17, 209, 46);
+  
+    transform: translate(0 , -6px);
+    box-shadow: 10px -10px 25px rgba(10, 224, 217, 0.5), -10px 10px 25px 0 rgba(18, 197, 191, 0.5);
+  
 }
 
 input[type=text] {
@@ -193,6 +199,7 @@ letter-spacing: .2rem;
   margin-left: 200px;
   margin-bottom: 2px;
 }
+
 .scoreButton {
   width: 198px;
   height: 50px;
@@ -221,6 +228,19 @@ letter-spacing: .2rem;
   margin-left: -399px;
   margin-top: -2px;
 
+
+}
+.scoreButton:hover{
+  
+    transform: translate(0 , -6px);
+    box-shadow: 10px -10px 25px rgba(10, 224, 217, 0.5), -10px 10px 25px 0 rgba(18, 197, 191, 0.5);
+  }
+
+
+.skipButton:hover
+{
+  transform: translate(0 , -6px);
+  box-shadow: 10px -10px 25px rgba(10, 224, 217, 0.5), -10px 10px 25px 0 rgba(18, 197, 191, 0.5);
 }
 .skipButton-3:focus:not(:focus-visible):not(.focus-visible) {
   box-shadow: none;

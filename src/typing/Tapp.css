@@ -15,6 +15,13 @@ body {
 	background: linear-gradient(rgb(219, 215, 226),rgb(154, 139, 178)) ;
 	margin: 0px;
 }
+.container{
+	justify-content: center !important;
+	width:  960px!important;
+	margin-left: 1px !important;
+	margin-top: -1px  !important;
+	
+}
 
 a {
 	color: rgb(128, 0, 255);

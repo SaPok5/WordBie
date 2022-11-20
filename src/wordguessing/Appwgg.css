@@ -66,8 +66,13 @@ background-color:rgb(43,129,130);
 }
 .playagain:hover,
 .playagain:focus {
-  background-color: rgb(255,211,24); 
+  background-image: linear-gradient(to bottom right, rgb(184,93,184), rgb(43,5,176)); 
   color: black;
+  font-weight: 700;
+  
+    transform: translate(0 , -10px);
+    box-shadow: 10px -10px 25px rgba(112, 5, 107, 0.5), -10px 10px 25px 0 rgba(94, 6, 120, 0.5);
+  
 }
 .quitgame {
   width: 200px;
@@ -102,6 +107,14 @@ background-color:rgb(43,129,130);
 }
 .quitgame:hover,
 .quitgame:focus {
-  background-color:rgb(3,172,206);
+  background-image:linear-gradient(to bottom right, rgb(184,93,184), rgb(43,5,176));
+
+
   color: black;
+  font-weight: 700 ;
+
+  
+    transform: translate(0 , -10px);
+    box-shadow: 10px -10px 25px rgba(203, 10, 224, 0.5), -10px 10px 25px 0 rgba(81, 6, 93, 0.5);
+  
 }

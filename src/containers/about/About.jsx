@@ -92,7 +92,7 @@ return(
   </footer>
 < div className="Developers">
 <p>Developers</p>
-
+<div className='members'>
 <div className='member 1'>
 <img src={require('C:/Users/samip/OneDrive/Desktop/Project/WordBie/src/containers/about/bishal.png')} width="100px" height="100px"/>
 <body>Bishal Devkota
@@ -112,8 +112,11 @@ return(
 </body>
 </div>
 </div>
-
 </div>
+</div>
+
+
+
 )
 }
 export default About;
