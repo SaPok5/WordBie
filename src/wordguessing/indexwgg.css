@@ -12,16 +12,16 @@
   background-image: linear-gradient(to bottom right, rgb(184,93,184), rgb(43,5,176));
   width:111% !important;
 }
-.container {
+.containerr {
   margin-top: 15px !important;
   display: grid;
   grid-template-rows:px 150px 350px 75px;
   background-color: rgb(177,177,179);
   padding: 10px;
   height: 575px !important;
-  width:32.4% !important;
+  width:27.7%;
   border-radius: 15px;
-  margin-left: 350px;
+  margin-left: 450px !important;
   
 }
 
@@ -362,7 +362,7 @@ letter-spacing: .2rem;
 }
 .bottomButton{
   height: 49px;
-  margin-bottom:7px;
+  margin-top:-7px;
 }
 .topline{
   border: 1px solid rgb(150,77,170);
@@ -404,7 +404,8 @@ letter-spacing: .2rem;
   border-radius: 45%;
   color: black;
   margin-bottom:500px;
-  margin-left:150px;
+  margin-left:300px;
+  margin-bottom: 580px;
   background-color:rgb(177,177,179) ;
 }
 .form {

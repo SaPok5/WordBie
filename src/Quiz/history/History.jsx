@@ -302,9 +302,9 @@ function History() {
           </>
         )}
       </div>
-      <div className="point">
+      {/* <div className="point">
         <ul className="moneyList"></ul>
-      </div>
+      </div> */}
     </div>
   )
 }

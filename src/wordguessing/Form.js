@@ -50,7 +50,7 @@ function Form () {
      
     
       //code for the timer
-      const [timer, setTimer] = useState(100);
+      const [timer, setTimer] = useState(60);
   
       useEffect(()=> {
        
@@ -103,7 +103,7 @@ return(
 
 ) : (
 
-    <div className="container">
+    <div className="containerr">
     <div >
       <div className="verytop">
        
