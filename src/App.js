@@ -39,9 +39,11 @@ const App = () => {
           <Products />
           <Rectangle/>
           <ScrollButton/>
+          <div className='back'> 
 <Title/>
+</div>
           <Footer />
-          <About />
+       
         </div>
       }/>
   

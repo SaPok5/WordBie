@@ -16,7 +16,7 @@ const Products = () => {
               <p className="paragraph">We provide an all in one platform for learning and practising language, especially English. With us, language learning is simple and fun.</p>
               <div className="wordbie__product-content-button1">
               <Link to = '/wordGuessingGame'>
-       <button type="button"> Try now</button>
+       <button type="button" className='btn'> Try now</button>
        </Link>
               </div>
           </div>
@@ -37,7 +37,7 @@ const Products = () => {
               <p className="paragraph">We provide an all in one platform for learning and practising language, especially English. With us, language learning is simple and fun.</p>
               <div className="wordbie__product-content-button2">
               <Link to = '/typing'>
-       <button type="button"> Try now</button>
+       <button type="button" className='btn'> Try now</button>
        </Link>
               </div>
           </div>
@@ -52,7 +52,7 @@ const Products = () => {
               <p className="paragraph">We provide an all in one platform for learning and practising language, especially English. With us, language learning is simple and fun.</p>
               <div className="wordbie__product-content-button3">
               <Link to = '/quiz'>
-       <button type="button"> Try now</button>
+       <button type="button" className='btn'> Try now</button>
        </Link> 
       </div>
           </div>

@@ -7,19 +7,16 @@ import { Link } from 'react-scroll';
 
 const Menu =()=>(
   <>
-     <p><Link  to="overview" spy={true} smooth={true} offset={20} duration={500}>
-          Overview
-        </Link> </p>
-        <p><Link  to="features" spy={true} smooth={true} offset={20} duration={500}>
+  <p><Link className="link"  to="features" spy={true} smooth={true} offset={50} duration={500}>
           About
         </Link> </p>
-    <p><Link  to="products" spy={true} smooth={true} offset={20} duration={500}>
+        <p><Link className="link"  to="products" spy={true} smooth={true} offset={20} duration={500}>
           Products
         </Link> </p>
-        <p><Link  to="contactus" spy={true} smooth={true} offset={20} duration={500}>
-          Contact
+     <p><Link className= "link" to="overview" spy={true} smooth={true} offset={20} duration={500}>
+          Features
         </Link> </p>
-        <p><Link  to="contactus" spy={true} smooth={true} offset={20} duration={500}>
+        <p><Link className="link"  to="contactus" spy={true} smooth={true} offset={20} duration={500}>
           Help
         </Link> </p>
   </>

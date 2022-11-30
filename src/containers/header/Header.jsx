@@ -1,7 +1,7 @@
 import React from 'react';
 import illustration from '../../assets/illustration.svg';
 import './header.css';
-
+import { Link } from 'react-scroll';
 const Header = () => {
   return (
     
@@ -18,7 +18,9 @@ const Header = () => {
     
       </div>
       <div className="wordbie__header-content__input">
-          <button type="button">Get Started</button>
+      <Link className="linku"  to="products" spy={true} smooth={true} offset={20} duration={500}>
+          Get Started
+        </Link> 
       </div>
       
       

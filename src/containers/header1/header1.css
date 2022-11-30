@@ -3,6 +3,7 @@
     padding-left:5rem;
     padding-right: 5rem;
     align-items: center;
+background: white;
     /*padding: 2rem 0rem 2rem;*/
     
     
@@ -81,8 +82,8 @@ color: #454868;
     margin-right:2rem;
     aspect-ratio: 3/4;
     text-align: center;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 50px rgba(79, 20, 248, 0.15);  
+    background: #fcfcfc;
+    box-shadow: 0px 10px 50px rgba(96, 59, 200, 0.15);  
     border-radius: 48px;
     
 }

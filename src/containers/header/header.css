@@ -33,10 +33,33 @@
  .wordbie__header-content ul{
      list-style: none;
  
-     
-     
  }
- .wordbie__header-content__input button{
+ .linku {
+   
+    margin-left: 3.8rem;
+     font-family: var(--font-family);
+     width: 190px;
+     height: 70px;
+     flex: 2;
+     background: #ED80FD;
+     border-radius: 10px;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 25px;
+     line-height: 36px;
+     border: 0;
+     color: #FFFFFF;
+     cursor: pointer;
+     margin-top: 25px;
+     padding: 1rem;
+        
+}
+.linku:hover{
+    background:#FD809E;
+    color: white;
+}
+  .wordbie__header-content__input button{
+        margin-top: 2rem;
      margin-left:3.8rem;
      font-family: var(--font-family);
      width: 190px;
@@ -52,7 +75,7 @@
      color: #FFFFFF;
      cursor: pointer;
      margin-top: 25px;
- }
+ } 
  
      .wordbie__header-image{
          flex:1;

@@ -13,6 +13,7 @@
     align-items: center;
 }
 .wordbie__navbar-links_logo{
+    padding-left: 4rem;
     margin-right: 100px;
 }
 .wordbie__navbar-links_logo img{
@@ -43,6 +44,13 @@
     align-items: flex-end;
 }
 
+.link{
+    color:#E0E0E0;
+}
+.link:hover{
+    color:white;
+
+}
 .wordbie__navbar-sign button,
 .wordbie__navbar-menu_container button{
     width: 150px;

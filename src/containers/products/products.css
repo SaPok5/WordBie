@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: white;
 }
 .wordbie__product-content h1{
     padding-top: 2rem;
@@ -29,6 +30,7 @@ color: #000000;
     flex-direction: row;
     margin-top: 10rem;
 }
+
 .wordbie__product3{
     display: flex;
     flex-direction: row;
@@ -150,6 +152,10 @@ color: #C4E6EE;
 
 
 }
+.btn:hover{
+    background:#FD809E;
+    color: white;
+}
 .wordbie__product2_textside p{
     display: flex;
     padding-top: 1rem;
@@ -208,14 +214,14 @@ color: #C4E6EE;
 }
 .wordbie__product1_textside button{
 font-family: var(--font-family);
-    width: 380px;
-    height: 140px;
+    width: 250px;
+    height: 100px;
     flex:2;
     background: #ED80FD;
     border-radius: 25px;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 36px;
     border:0;
     color: #FFFFFF;
@@ -225,15 +231,15 @@ font-family: var(--font-family);
 }
 .wordbie__product2_textside button{
     font-family: var(--font-family);
-        width: 380px;
-        height: 140px;
+    width: 250px;
+    height: 100px;
         flex:2;
         background: #ED80FD;
         border-radius: 25px;
         font-style: normal;
         font-weight: 600;
-        font-size: 50px;
-        line-height: 36px;
+    font-size: 42px;
+    line-height: 36px;
         border:0;
         color: #FFFFFF;
         cursor: pointer;
@@ -243,20 +249,19 @@ font-family: var(--font-family);
     .wordbie__product3_textside button{
        
             font-family: var(--font-family);
-            width: 380px;
-            height: 140px;
+            width: 250px;
+    height: 100px;
             flex:2;
             background: #ED80FD;
             border-radius: 25px;
             font-style: normal;
             font-weight: 600;
-            font-size: 50px;
+            font-size: 42px;
             line-height: 36px;
             border:0;
             color: #FFFFFF;
             cursor: pointer;
-            margin-top:9rem;
-            margin-left: 5rem;
+            margin-left: 27rem;
             margin-right: 5rem;
         }
 /*.wordbie__product-content{

@@ -1,8 +1,7 @@
 export const quotesArray = [
 	{
 		quote:
-			"If we listened to our intellect we'd never have a love affair. We'd never have a friendship. We'd never go in business because we'd be cynical: \"It's gonna go wrong.\" Or \"She's going to hurt me.\" Or,\"I've had a couple of bad love affairs, so therefore . . .\" Well, that's nonsense. You're going to miss life. You've got to jump off the cliff all the time and build your wings on the way down.",
-		author: 'Ray Bradbury'
+			"I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain."
 	},
 	{
 		quote:
@@ -56,7 +55,7 @@ export const quotesArray = [
 	},
 	{
 		quote:
-			"What I like about cooking is that, so long as you follow the recipe exactly, everything always turns out perfect. It's too bad there's no recipe for happiness. Happiness is more like pastry—which is to say that you can take pains to keep cool and not overwork the dough, but if you don't have that certain light touch, your best efforts still fall flat. The work-around is to buy what you need. I'm talking about pastry, not happiness, although money does make things easier all around.",
+			"What I like about cooking is that, so long as you follow the recipe exactly, everything always turns out perfect. It's too bad there's no recipe for happiness. Happiness is more like pastry which is to say that you can take pains to keep cool and not overwork the dough, but if you don't have that certain light touch, your best efforts still fall flat. The work-around is to buy what you need. I'm talking about pastry, not happiness, although money does make things easier all around.",
 		author: 'Josh Lanyon'
 	},
 	{
@@ -153,5 +152,7 @@ export const allowedKeys = [
 	';',
 	"'",
 	',',
+	'-',
+	'_',
 	'.'
 ]

@@ -8,19 +8,17 @@ const Title = () => {
       <div className="line1">
           <div className="number1">
                      <h1 className="number1_header">
-                        1000+ Words
+                        50+ Words
                      </h1>
                      <p className="number1_para">
-                         We provide an all in one platform for learning and practising language, especially English.
-                     </p>
+                         More than 50 words in Word-Guessing game to test your associativity skills                     </p>
           </div>
           <div className="number2">
           <h1 className="number1_header">
                         1000+ Words
                      </h1>
                      <p className="number1_para">
-                         We provide an all in one platform for learning and practising language, especially English.
-                     </p>
+                         We have more than 1000 words combined for typing test.                     </p>
 
           </div>
       </div>
@@ -28,18 +26,18 @@ const Title = () => {
       <div className="line2">
       <div className="number3">
       <h1 className="number1_header">
-                        1000+ Words
+                        25+ Questions
                      </h1>
                      <p className="number1_para">
-                         We provide an all in one platform for learning and practising language, especially English.
+                         We provide more than 25 questions combined Quiz to help improve your grammar knowledge.
                      </p>
       </div>
       <div className="number4">
                     <h1 className="number1_header">
-                        1000+ Words
+                        3 Games
                      </h1>
                      <p className="number1_para">
-                         We provide an all in one platform for learning and practising language, especially English.
+                         We provide 3 different games, to help improve, test and widen your language skills.
                      </p>
       </div>
       </div>
