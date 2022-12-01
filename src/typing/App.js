@@ -125,10 +125,10 @@ const Typing= () => {
                 }
               />
               <ItemList name="CPM" data={cpm}
-              style={{backgroundColor: '#d93ff4'}} />
+              style={{backgroundColor: '#f5deb3'}} />
               <ItemList name="Last Score" data={lastScore} 
               
-              style={{backgroundColor: '#d93ff4'}}
+              style={{backgroundColor: '#f5deb3'}}
               />
             </ul>
           </div>
@@ -258,9 +258,9 @@ const Typing= () => {
 
           <div className="col-sm-6 col-md-2 order-md-2 px-5">
             <ul className="list-unstyled text-center small">
-              <ItemList name="Timers" data={duration}  style={{backgroundColor: '#d93ff4'}}/>
-              <ItemList name="Errors" data={errorIndex}  style={{backgroundColor: '#d93ff4'}}/>
-              <ItemList name="Acuracy" data={accuracy} symble="%" style={{backgroundColor: '#d93ff4'}} />
+              <ItemList name="Timers" data={duration}  style={{backgroundColor: '#f5deb3'}}/>
+              <ItemList name="Errors" data={errorIndex}  style={{backgroundColor: '#f5deb3'}}/>
+              <ItemList name="Acuracy" data={accuracy} symble="%" style={{backgroundColor: '#f5deb3'}} />
             </ul>
           </div>
         </div>
@@ -271,7 +271,7 @@ const Typing= () => {
               {/* <li className="list-inline-item">WordBie</li> */}
             {/* </ul>
           </div>
-        </footer> */} */}
+        // </footer> */} 
       </div>
     </div>
   )

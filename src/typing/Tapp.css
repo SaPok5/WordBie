@@ -306,7 +306,7 @@ hr {
 	border-color: #ffeeba;
 }
 .alert-danger {
-	color: rgb(185, 74, 72);
+	color: rgb(116, 26, 24);
 	border: 1px solid rgb(238, 211, 215);
 	text-align: left;
 	width: 90%;
@@ -385,8 +385,8 @@ button {
 }
 
 .btn-outline-success {
-	color: #068114;
-	border-color: #046709;
+	color: #54e411;
+	border-color: #64a868;
 }
 
 .btn-outline-success:hover {
@@ -411,6 +411,7 @@ button {
 	color: #fff;
 	background-color: #28a745;
 	border-color: #28a745;
+	
 }
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus,
@@ -580,6 +581,7 @@ button {
 .quotes.active {
 	box-shadow: 0 0 3px 0.15rem rgb(23, 168, 27);
 	outline: 0;
+	
 }
 
 .quotes.active.is-error {

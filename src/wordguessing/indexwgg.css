@@ -16,10 +16,10 @@
   margin-top: 15px !important;
   display: grid;
   grid-template-rows:px 150px 350px 75px;
-  background-color: rgb(177,177,179);
+  background-color: wheat;
   padding: 10px;
-  height: 575px !important;
-  width:27.7%;
+  height: 600px !important;
+  width:28.75%;
   border-radius: 15px;
   margin-left: 450px !important;
   
@@ -75,11 +75,15 @@
 .wordButtons {
   display: grid;
   grid-template-rows: 12px 12px 12px 12px 12px;
-  background-color: black;
+color: black;
   width: 400px;
   text-align: center;
+ background-color: wheat;
   
 
+}
+.words {
+  margin-bottom: -10px;
 }
 
 /* CSS */
@@ -145,10 +149,13 @@ letter-spacing: .2rem;
 
 .submit {
   margin-top: -48px;
+  
 }
 .line {
-  border: 1px solid rgb(150,77,170);
+  border:1px solid rgb(150,77,170);
   margin-bottom: -5px;
+  margin-top:10px;
+ 
 }
 
 
@@ -159,6 +166,7 @@ letter-spacing: .2rem;
   border: 1px solid rgb(150,77,170);
   margin-top:-15px;
 }
+
 .hinto{
   text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -272,7 +280,7 @@ letter-spacing: .2rem;
 .wordButtons {
   display: grid;
   grid-template-rows: 12px 12px 12px 12px 12px;
-  background-color: rgb(177,177,179);
+  background-color: wheat;
   width: 400px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -280,6 +288,7 @@ letter-spacing: .2rem;
   font-family: 'Times New Roman', Times, serif;
   color: black;
   font-weight: bold;
+  
 
 }
 .hintImage{
@@ -363,10 +372,12 @@ letter-spacing: .2rem;
 .bottomButton{
   height: 49px;
   margin-top:-7px;
+  margin-left: 0.34rem;
+  margin-bottom: -5px;
 }
 .topline{
   border: 1px solid rgb(150,77,170);
-  margin-top: 9px;
+  margin-top: 12px;
 }
 .scoreline{
   height: 20px;
@@ -377,6 +388,7 @@ letter-spacing: .2rem;
 .verytop {
   display: grid;
   grid-template-columns: 20px 20px;
+  background-color: wheat;
  
 }
 .score {
@@ -403,7 +415,7 @@ letter-spacing: .2rem;
   margin-bottom: 600px !important; */
   border-radius: 45%;
   color: black;
-  margin-bottom:500px;
+  margin: bottom 530px;
   margin-left:300px;
   margin-bottom: 580px;
   background-color:rgb(177,177,179) ;
@@ -415,4 +427,7 @@ letter-spacing: .2rem;
 .h2 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 letter-spacing: .2rem;
+}
+.h3 {
+  font-family: 'Times New Roman', Times, serif;
 }

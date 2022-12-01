@@ -74,12 +74,14 @@ margin-top: -30px;
 
 }
 
-.dropdown .dropdown-content .dropdown-item{
+.dropdown  .dropdown-content .dropdown-item{
 padding: 10px;
 margin-top: 0.3rem ;
 margin-bottom: 0.3rem;
 cursor: pointer;
 transition: all 0.2s;
+color: brown;
+
 }
 .dropdown .dropdown-content .dropdown-item:hover {
     background: rgb(68, 160, 146);

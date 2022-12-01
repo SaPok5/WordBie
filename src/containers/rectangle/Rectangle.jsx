@@ -1,7 +1,14 @@
 import React from 'react'
 import './rectangle.css';
 import sampleicon from '../../assets/sampleicon.svg';
-
+import challenging from '../../assets/challenging.svg';
+import learning from '../../assets/learning.svg';
+import typing from '../../assets/typing.svg';
+import vocabulary from '../../assets/vocabulary.svg';
+import simplicity from '../../assets/simplicity.svg';
+import variety from '../../assets/variety.svg';
+import gram from '../../assets/gram.svg';
+import composition from '../../assets/composition.svg';
 const Rectangle = () => {
   return (
     <div className="wordbie__rectangle_content" id='overview'>
@@ -9,7 +16,7 @@ const Rectangle = () => {
         <div className="line1">
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={vocabulary} alt='vocabulary' className='img' />
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Vocab</h1>
@@ -20,7 +27,7 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={typing} alt='typing' className='img'/>
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Typing</h1>
@@ -31,7 +38,7 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={learning} alt='learning' className='img'/>
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Learning</h1>
@@ -42,7 +49,7 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={challenging} alt='challenging' className='img'/>
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Challenging</h1>
@@ -57,8 +64,7 @@ const Rectangle = () => {
         <div className="line1">
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
-            </div>
+            <img src={simplicity} alt='simplicity' className='img'/>            </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Simplicity</h1>
             </div>
@@ -68,8 +74,7 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
-            </div>
+            <img src={variety} alt='variety' className='img'/>            </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Eclectic</h1>
             </div>
@@ -79,7 +84,7 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={composition} alt='composition' className='img'/>
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Association</h1>
@@ -90,13 +95,13 @@ const Rectangle = () => {
         </div>
         <div className="wordbie__feature1">
             <div className="wordbie__feature1_icon">
-            <img src={sampleicon} alt='sampleicon' />
+            <img src={gram} alt='simplicity' className='img'/> 
             </div>
             <div className="wordbie__feature1_header">
                 <h1 className="minititle">Grammar</h1>
             </div>
             <div className="wordbie__feature1_paragraph">
-                <p className='wordbie__paragraph'>A responsive and mobile-first theme built with the world's most popular component library.</p>
+                <p className='wordbie__paragraph'>Learn Grammar in a fun way. Preposition and speech etc.</p>
             </div>
         </div>
         </div>

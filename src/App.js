@@ -1,8 +1,8 @@
 import React from 'react';
 
 import {Navbar,Header,Header1,Products,Footer, Rectangle} from './containers';
-import About from './containers/about/About';
 import Form from './wordguessing/Form';
+import Contact from './components/contact/components/contact';
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Typing from './typing/App';
@@ -50,10 +50,12 @@ const App = () => {
     <Route path='/wordGuessingGame' element = {<Form/>}/>
     <Route path='/typing' element = {<Typing/>}/>
     <Route path='/quiz' element = {<Dropdown/>}/>
+    <Route path="/contactus" element={<Contact/>}/>
     <Route path="/" element={<Home />}></Route>
             <Route path="/quiz/speech" element={<Grammar />}/>
             <Route path="/quiz/vocab" element={<History />}/>
             <Route path="/quiz/preposition" element={<English />}/>
+            
     </Routes>
   )
 }

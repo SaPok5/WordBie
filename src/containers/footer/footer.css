@@ -38,12 +38,15 @@
     display: flex;
     flex-direction: row;
     flex:70%;
-    
+    margin-right: ;
 }
 .footer_account{
     display: flex;
     flex-direction: column;
     color: white;    
+}
+.footerelements{
+    padding-left:28rem ;
 }
 .footerelements h1{
     padding-top: 2rem;
@@ -56,7 +59,20 @@
     line-height: 130%;
     color:white;
 }
+.hii{
+    color:#E0E0E0;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: 548;
+    font-size:20px;
+    margin-bottom: 1%!important;
+    margin-left: -0.1rem;
+}
+.hii:hover{
+   
+        color:white;
 
+}
 .footerelements p{
     color:beige;
     font-family: var(--font-family);
@@ -68,7 +84,20 @@
 }
 .huu{
     color:#E0E0E0;
+    cursor: pointer;
 }
 .huu:hover{
     color:white;
+}
+.footer_help{
+    margin-left: 5rem
+}
+.containerrr{
+    margin-bottom: -14.6rem;
+    margin-left: -35rem;
+    color:rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 15px;
+    font-size: 13px;
 }

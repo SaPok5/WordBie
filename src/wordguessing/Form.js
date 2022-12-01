@@ -133,7 +133,8 @@ return(
    
 
   <div className="words">
-  {questions[currentQuestion].questionText.map((questionText) => <div className='wordButtons'  ><h3>{questionText}</h3></div> )}
+  {questions[currentQuestion].questionText.map((questionText) => <div className='wordButtons'  ><h3 className="h3">{questionText}</h3></div> )}
+
   <hr className="line"></hr>
 
   {questions[currentQuestion].hint.map((hint) => <div className="hintxa"><h3 className="hinto">{hint}</h3></div> )}
