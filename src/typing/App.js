@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { quotesArray, random, allowedKeys } from './Helper'
 import ItemList from './components/ItemList'
+import logo from 'C:/Users/samip/OneDrive/Desktop/lol/WordBie/src/Quiz/assets/logo.svg'
+
 import './Tapp.css'
 
 let interval = null
@@ -136,7 +138,7 @@ const Typing= () => {
           <div className="col-sm-12 col-md-8 order-md-1">
             <div className="container">
               <div className="text-center mt-4 header">
-                <h1>WORDBIE</h1>
+                <h1><img src={logo} alt="logo" /></h1>
                 <br />
                 <h2>TYPING GAME </h2>
                 <p className="lead">
